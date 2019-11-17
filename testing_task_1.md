@@ -9,6 +9,7 @@ class CardGame
 
   def checkforAce(card)
     if card.value = 1
+      # card.value ==1
       return true
     else
       return false
@@ -20,6 +21,7 @@ class CardGame
   #  typo , def highest_card(card1, card2)
   if card1.value > card2.value
     return card
+    # reurn card1
   else
     return card2
   end
@@ -32,6 +34,7 @@ def self.cards_total(cards)
   for card in cards
     total += card.value
     return "You have a total of" + total
+    # #{total}
   end
 end
 ```
